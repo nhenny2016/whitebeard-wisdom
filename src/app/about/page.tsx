@@ -6,12 +6,12 @@ import { PageHero } from "@/components/page-hero";
 import { PageShell } from "@/components/page-shell";
 import { createMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLd } from "@/lib/schema";
-import { aboutValues, siteConfig } from "@/lib/site";
+import { aboutValues, bioSpotlight, bioTimeline, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = createMetadata({
-  title: "About James Whitfield | Whitebeard Wisdom — Executive Life Coach",
+  title: "About Rodney Penn | Whitebeard Wisdom — Owner, Operator & Life Coach",
   description:
-    "Meet James Whitfield, ICF PCC and founder of Whitebeard Wisdom. 25+ years of leadership experience, now coaching executives and professionals for clarity, purpose, and legacy.",
+    "Meet Rodney Penn — Marine Corps veteran, FHSU alumnus, case manager, and founder of Whitebeard Wisdom. A story of reinvention, faith, service, and earned wisdom.",
   path: "/about",
 });
 
@@ -25,7 +25,7 @@ export default function AboutPage() {
     <PageShell>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(breadcrumbs) }} />
       <PageHero
-        badge="About"
+        badge="About Rodney Penn"
         title={`Meet ${siteConfig.coach.name}`}
         description={siteConfig.coach.bio}
         image={siteConfig.images.aboutPortrait}
@@ -37,22 +37,30 @@ export default function AboutPage() {
         }
       />
 
-      <section className="section-shell grid gap-12 lg:grid-cols-2">
+      <section className="section-shell grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <h2 className="headline-banner text-3xl">The story behind Whitebeard Wisdom</h2>
+          <h2 className="headline-banner text-3xl">A retread who rebuilt his life</h2>
           <p className="mt-6 text-body">
-            After 25 years climbing the corporate ladder — VP roles, board meetings, the corner office
-            — James realized the success he built on the outside didn&apos;t match the clarity he craved
-            on the inside. A health scare and a hard conversation with his daughter changed everything.
+            Rodney Penn is what the Marine Corps calls a retread — someone who started over late in
+            his career. Most of his life was spent fixing things: welders, wind turbines, and
+            aviation radar. He knew how to diagnose problems, rebuild systems, and make broken things
+            work again.
           </p>
           <p className="mt-4 text-body">
-            He left the C-suite, earned his ICF certification, and built Whitebeard Wisdom for
-            professionals who are accomplished on paper but hungry for meaning. The white beard is
-            real. The wisdom is earned. The coaching is direct, warm, and rooted in lived experience.
+            A renewed faith prompted him to take on a role working with homeless men. During that
+            time, he developed a passion and compassion for people who struggle with mental illness.
+            That calling led him to Fort Hays State University — and eventually to human services,
+            supported employment, and the coaching work he now offers through Whitebeard Wisdom.
           </p>
+          <blockquote className="mt-8 border-l-4 border-brand-gold pl-6">
+            <p className="font-[family-name:var(--font-playfair)] text-xl text-brand-navy">
+              &ldquo;{siteConfig.coach.advice}&rdquo;
+            </p>
+            <footer className="mt-3 text-sm text-muted">— Rodney Penn, FHSU Alumni Spotlight</footer>
+          </blockquote>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold text-brand-navy">Credentials</h3>
+          <h3 className="text-lg font-semibold text-brand-navy">Credentials & experience</h3>
           <ul className="mt-4 space-y-3">
             {siteConfig.coach.credentials.map((cred) => (
               <li key={cred} className="flex gap-3 text-sm text-body">
@@ -61,7 +69,47 @@ export default function AboutPage() {
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-sm text-muted">{siteConfig.mission}</p>
+          <p className="mt-6 text-sm text-body">{siteConfig.coach.shortBio}</p>
+          <a
+            href={siteConfig.coach.bioSource}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex text-sm font-semibold text-brand-gold-deep hover:underline"
+          >
+            Read Rodney&apos;s FHSU Alumni Spotlight →
+          </a>
+        </div>
+      </section>
+
+      <section className="border-t border-brand-navy/8 bg-brand-surface">
+        <div className="section-shell">
+          <p className="section-badge-dark">Life timeline</p>
+          <h2 className="headline-banner mt-4 text-3xl">How the wisdom was earned</h2>
+          <div className="mt-10 space-y-6">
+            {bioTimeline.map((item) => (
+              <div key={item.title} className="grid gap-4 border-l-2 border-brand-gold/40 pl-6 md:grid-cols-[160px_1fr]">
+                <p className="text-sm font-semibold uppercase tracking-wider text-brand-gold-deep">
+                  {item.era}
+                </p>
+                <div>
+                  <h3 className="text-lg font-semibold text-brand-navy">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-7 text-body">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-shell">
+        <h2 className="headline-banner text-3xl">In his own words</h2>
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
+          {bioSpotlight.map((item) => (
+            <div key={item.question} className="card">
+              <h3 className="text-lg font-semibold text-brand-navy">{item.question}</h3>
+              <p className="mt-3 text-sm leading-7 text-body">{item.answer}</p>
+            </div>
+          ))}
         </div>
       </section>
 

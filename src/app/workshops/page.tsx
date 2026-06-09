@@ -9,9 +9,9 @@ import { breadcrumbSchema, jsonLd } from "@/lib/schema";
 import { siteConfig, workshopFormats, workshopTopics } from "@/lib/site";
 
 export const metadata: Metadata = createMetadata({
-  title: "Workshops & Speaking | Whitebeard Wisdom — Keynotes & Executive Retreats",
+  title: "Workshops & Speaking | Whitebeard Wisdom — Rodney Penn",
   description:
-    "Book James Whitfield for keynotes, workshops, and executive retreats on leadership wisdom, midlife reinvention, decision-making, and legacy leadership.",
+    "Book Rodney Penn for keynotes, workshops, and retreats on reinvention, faith and purpose, resilience, and building a meaningful second chapter.",
   path: "/workshops",
 });
 
@@ -27,12 +27,12 @@ export default function WorkshopsPage() {
       <PageHero
         badge="Workshops & Speaking"
         title="Bring wisdom to your team, conference, or retreat."
-        description="James delivers keynotes and workshops that combine executive experience with coaching depth — practical, profound, and immediately applicable for leaders and teams."
+        description="Rodney delivers keynotes and workshops that combine skilled-trades grit, human services experience, and faith-informed perspective — practical, honest, and immediately useful."
         image={siteConfig.images.workshopHero}
-        imageAlt="Workshop and speaking engagement"
+        imageAlt={`${siteConfig.coach.name} speaking`}
         actions={
           <Link href="/contact#workshop" className="btn-primary">
-            Book James to Speak
+            Book Rodney to Speak
           </Link>
         }
       />
@@ -64,15 +64,15 @@ export default function WorkshopsPage() {
       <section className="section-shell text-center">
         <h2 className="headline-banner text-3xl">Custom programs available</h2>
         <p className="mx-auto mt-4 max-w-2xl text-body">
-          Every organization is different. James works with event planners and L&D teams to design
-          sessions that fit your audience, culture, and goals.
+          Every organization is different. Rodney works with event planners, churches, and community
+          leaders to design sessions that fit the audience, culture, and goals.
         </p>
         <Link href="/contact#workshop" className="btn-primary mt-8 inline-flex">
           Request a Proposal
         </Link>
       </section>
 
-      <FaqSection title="Workshop FAQ" intro="Questions about booking James for speaking and workshops." />
+      <FaqSection title="Workshop FAQ" intro="Questions about booking Rodney for speaking and workshops." />
       <CtaSection />
     </PageShell>
   );

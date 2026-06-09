@@ -1,6 +1,8 @@
 import {
   aboutValues,
   approachPillars,
+  bioSpotlight,
+  bioTimeline,
   coachingFormats,
   coachingSupportAreas,
   contactPaths,
@@ -36,7 +38,18 @@ const fullBrief = `# Whitebeard Wisdom — Full LLM Brief
 - Name: ${siteConfig.coach.name}
 - Title: ${siteConfig.coach.title}
 - Bio: ${siteConfig.coach.bio}
+- Bio source: ${siteConfig.coach.bioSource}
+- Advice: ${siteConfig.coach.advice}
+
+## Bio timeline
+
+${bioTimeline.map((item) => `- **${item.era} — ${item.title}**: ${item.description}`).join("\n")}
+
 - Credentials: ${siteConfig.coach.credentials.join("; ")}
+
+## Alumni spotlight highlights
+
+${bioSpotlight.map((item) => `- **${item.question}**: ${item.answer}`).join("\n")}
 
 ## Stats
 

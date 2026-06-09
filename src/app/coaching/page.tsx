@@ -9,9 +9,9 @@ import { breadcrumbSchema, jsonLd, serviceSchema } from "@/lib/schema";
 import { coachingFormats, coachingSupportAreas, signaturePrograms, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = createMetadata({
-  title: "Executive Coaching | Whitebeard Wisdom — 1:1 Life & Leadership Coaching",
+  title: "Life Coaching | Whitebeard Wisdom — 1:1 Coaching with Rodney Penn",
   description:
-    "Executive and life coaching for professionals ready for clarity, confidence, and purposeful leadership. 1:1 sessions, intensives, and group circles with James Whitfield, ICF PCC.",
+    "Life coaching with Rodney Penn for clarity, reinvention, purpose, and next-chapter direction. 1:1 sessions, intensives, and group circles grounded in lived experience.",
   path: "/coaching",
 });
 
@@ -29,9 +29,9 @@ export default function CoachingPage() {
     <PageShell>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd([breadcrumbs, service]) }} />
       <PageHero
-        badge="Executive Coaching"
-        title="Coaching for leaders who want wisdom, not just wins."
-        description="Whether you are navigating a career transition, recovering from burnout, or designing the next chapter of your life — coaching at Whitebeard Wisdom meets you with directness, depth, and decades of lived experience."
+        badge="Life Coaching"
+        title="Coaching for people ready to start over with purpose."
+        description="Whether you are navigating a career change, rebuilding after burnout, or searching for meaning in a second chapter — Rodney meets you with directness, faith, and decades of lived experience."
         image={siteConfig.images.coachingHero}
         imageAlt="Executive coaching session"
         actions={
@@ -44,9 +44,9 @@ export default function CoachingPage() {
       <section className="section-shell">
         <h2 className="headline-banner text-3xl">Who this is for</h2>
         <p className="mt-4 max-w-3xl text-body">
-          This coaching is for executives, entrepreneurs, and accomplished professionals who carry
-          responsibility, navigate complexity, and want a thinking partner who has been in the arena —
-          not just read about it.
+          This coaching is for professionals, veterans, caregivers, and everyday leaders who carry
+          responsibility, feel at a crossroads, and want a thinking partner who has rebuilt his own
+          life — not just studied someone else&apos;s.
         </p>
       </section>
 
@@ -105,7 +105,7 @@ export default function CoachingPage() {
         </div>
       </section>
 
-      <FaqSection title="Coaching FAQ" intro="Common questions about executive coaching with Whitebeard Wisdom." />
+      <FaqSection title="Coaching FAQ" intro="Common questions about life coaching with Rodney Penn and Whitebeard Wisdom." />
       <CtaSection />
     </PageShell>
   );

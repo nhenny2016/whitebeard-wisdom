@@ -18,11 +18,11 @@ ${siteConfig.description}
 ## Key pages
 
 - [Home](${siteConfig.url}/): Hero, programs, wisdom preview, testimonials, FAQ
-- [Coaching](${siteConfig.url}/coaching): 1:1 executive coaching, formats, support areas
+- [Coaching](${siteConfig.url}/coaching): 1:1 life coaching, formats, support areas
 - [Programs](${siteConfig.url}/programs): CLARITY, DEPTH, LEGACY signature programs
 - [Wisdom](${siteConfig.url}/wisdom): Weekly articles on leadership and purpose
 - [Workshops](${siteConfig.url}/workshops): Keynotes, workshops, executive retreats
-- [About](${siteConfig.url}/about): James Whitfield bio, credentials, values
+- [About](${siteConfig.url}/about): Rodney Penn bio, timeline, credentials, values
 - [Contact](${siteConfig.url}/contact): Wisdom Call booking, inquiry paths
 
 ## Signature programs

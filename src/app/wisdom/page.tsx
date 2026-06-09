@@ -10,7 +10,7 @@ import { wisdomArticles } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Wisdom Blog | Whitebeard Wisdom — Insights for Leaders",
   description:
-    "Weekly wisdom for executives and professionals — articles on decision-making, purpose, leadership, legacy, and living with intention from coach James Whitfield.",
+    "Weekly wisdom for people navigating reinvention, purpose, and life's harder chapters — from coach Rodney Penn.",
   path: "/wisdom",
 });
 

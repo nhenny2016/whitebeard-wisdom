@@ -30,7 +30,7 @@ export function HeroSection() {
               {siteConfig.booking.label}
             </Link>
             <Link href="/about" className="btn-secondary">
-              Meet James
+              Meet Rodney
             </Link>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -262,8 +262,8 @@ export function NewsletterSection() {
         <p className="section-badge-dark">Stay wise</p>
         <h2 className="headline-banner mt-4 text-3xl">Weekly Wisdom in your inbox</h2>
         <p className="mx-auto mt-4 max-w-xl text-body">
-          One insight per week from James — no fluff, no spam. Just wisdom for leaders who want to
-          think deeper and live better.
+          One insight per week from Rodney — no fluff, no spam. Just wisdom for people ready to think
+          deeper and live with more purpose.
         </p>
         <form className="mx-auto mt-8 flex max-w-md flex-col gap-3 sm:flex-row">
           <input

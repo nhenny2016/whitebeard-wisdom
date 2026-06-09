@@ -6,9 +6,9 @@ export const siteConfig = {
   shortName: "Whitebeard Wisdom",
   slogan: "Decades of life. Distilled into wisdom you can use today.",
   tagline:
-    "Executive and life coaching for professionals ready to stop drifting, find clarity, and lead with purpose — guided by a coach who has walked the long road.",
+    "Life coaching for people ready to start over, find clarity, and build a second chapter with purpose — guided by someone who has rebuilt his own life from the ground up.",
   description:
-    "Whitebeard Wisdom offers executive life coaching, signature programs, workshops, and weekly wisdom for leaders and high achievers who want clarity, confidence, and a life aligned with what matters most.",
+    "Whitebeard Wisdom is the life coaching practice of Rodney Penn — owner, operator, and coach. Rodney helps professionals and everyday leaders navigate reinvention, purpose, faith, and the hard work of becoming who they were meant to be.",
   url: "https://whitebeardwisdom.com",
   locale: "en_US",
   email: "hello@whitebeardwisdom.com",
@@ -16,13 +16,24 @@ export const siteConfig = {
   phone: "(417) 555-0142",
   phoneHref: "tel:+14175550142",
   coach: {
-    name: "James Whitfield",
-    title: "Founder & Executive Life Coach",
-    credentials: ["ICF Professional Certified Coach (PCC)", "25+ years leadership experience", "Former Fortune 500 executive"],
-    bio: "James spent three decades in corporate leadership before realizing the success he built on the outside didn't match the clarity he craved on the inside. Today he coaches executives, entrepreneurs, and professionals who are accomplished on paper but hungry for meaning, direction, and wisdom that lasts.",
+    name: "Rodney Penn",
+    title: "Owner, Operator & Life Coach",
+    alumniClass: "2021",
+    bioSource: "https://fhsualumni.com/rodney-penn-21/",
+    bio: "Rodney Penn is what the Marine Corps calls a retread — someone who started over late in life. After decades fixing welders, wind turbines, and aviation radar, a renewed faith led him to serve homeless men and discover a passion for people facing mental illness. He earned his degree from Fort Hays State University and built a career in human services before launching Whitebeard Wisdom to coach others through their own second chapters.",
+    shortBio:
+      "Marine Corps veteran, FHSU alumnus, and case manager turned life coach — Rodney helps people rebuild with clarity, faith, and earned wisdom.",
+    credentials: [
+      "Fort Hays State University alumnus (Class of 2021)",
+      "Marine Corps veteran",
+      "Case manager, Central Kansas Mental Health Center",
+      "Supported employment & mental health services background",
+    ],
+    advice:
+      "Stay the course. Finish strong. A brick wall is built one brick at a time. Just keep working at it.",
   },
   mission:
-    "To help accomplished professionals translate decades of experience into intentional living — with clarity, courage, and wisdom that compounds over time.",
+    "To help people at crossroads translate hard-won life experience into intentional next chapters — with clarity, courage, faith, and wisdom that lasts.",
   social: {
     instagram: "https://www.instagram.com/whitebeardwisdom",
     linkedin: "https://www.linkedin.com/company/whitebeard-wisdom",
@@ -53,17 +64,17 @@ export const approachPillars = [
   {
     title: "Clarity Before Strategy",
     description:
-      "We start with the questions beneath the goals — who you are becoming, not just what you are achieving.",
+      "We start with the questions beneath the goals — who you are becoming, not just what you are trying to fix next.",
   },
   {
-    title: "Wisdom Over Hacks",
+    title: "Lived Experience Over Theory",
     description:
-      "No quick fixes. We work with patterns, values, and choices that create lasting change.",
+      "Rodney coaches from a life rebuilt — skilled trades, service, faith, education, and human services — not from a script.",
   },
   {
-    title: "Accountability with Respect",
+    title: "Steady Accountability",
     description:
-      "Direct, honest support from someone who has led at the highest levels and knows the weight you carry.",
+      "Direct, respectful support for people ready to stay the course, finish strong, and keep laying one brick at a time.",
   },
 ] as const;
 
@@ -137,12 +148,69 @@ export const coachingFormats = [
 ] as const;
 
 export const coachingSupportAreas = [
-  "Executive transitions and career reinvention",
-  "Leadership presence and decision-making under pressure",
-  "Work-life integration without sacrificing ambition",
-  "Building a personal philosophy of success",
-  "Navigating midlife purpose and legacy questions",
-  "Recovering energy, focus, and joy after burnout",
+  "Starting over after career or life disruption",
+  "Finding purpose in a second chapter",
+  "Faith-informed decision making and direction",
+  "Navigating burnout, transition, and identity shifts",
+  "Building confidence after years of fixing everyone else's problems",
+  "Creating a life aligned with values, family, and legacy",
+] as const;
+
+export const bioTimeline = [
+  {
+    era: "Early career",
+    title: "Fixing what others could not",
+    description:
+      "Rodney spent most of his life in skilled trades — repairing welders, wind turbines, and aviation radar systems. Problem-solving was his craft long before coaching became his calling.",
+  },
+  {
+    era: "Service",
+    title: "Marine Corps retread",
+    description:
+      "Rodney describes himself as what the Marine Corps calls a retread — someone who started over late and chose a path of service, discipline, and reinvention.",
+  },
+  {
+    era: "Calling",
+    title: "Faith, homeless ministry, and mental health",
+    description:
+      "A renewed faith prompted Rodney to work with homeless men. That experience developed a deep compassion for people struggling with mental illness and set him on a new path.",
+  },
+  {
+    era: "Education",
+    title: "Fort Hays State University",
+    description:
+      "Rodney chose FHSU for its online flexibility and affordability. Graduation was a tearful milestone — honoring the people who believed in him long before he crossed that stage.",
+  },
+  {
+    era: "Human services",
+    title: "Central Kansas Mental Health Center",
+    description:
+      "Rodney served as a case manager, developing supported employment programs and walking alongside individuals with severe and persistent mental illness.",
+  },
+  {
+    era: "Today",
+    title: "Whitebeard Wisdom",
+    description:
+      "Rodney now coaches through Whitebeard Wisdom — helping others navigate crossroads with the same grit, faith, and hard-earned perspective that shaped his own second chapter.",
+  },
+] as const;
+
+export const bioSpotlight = [
+  {
+    question: "Why Fort Hays State?",
+    answer:
+      "The convenience of the online option coupled with the affordability was a big selling point. FHSU has a graduate program Rodney planned to pursue as well.",
+  },
+  {
+    question: "Favorite student memory",
+    answer:
+      "Graduation. Many of the people in his life who believed in him years earlier had since passed away. Walking across that stage was a very tearful event — and a reminder that perseverance matters.",
+  },
+  {
+    question: "What he valued at FHSU",
+    answer:
+      "Open conversations and discussions conducted with respect and appreciation for diverse thought — and a student body and faculty who truly wanted people to succeed.",
+  },
 ] as const;
 
 export const wisdomArticles = [
@@ -185,11 +253,11 @@ export const wisdomArticles = [
 ] as const;
 
 export const workshopTopics = [
-  "Leading with Wisdom: Decision-Making for Executives",
-  "The Midlife Pivot: Reinvention Without Starting Over",
-  "Building a Leadership Philosophy That Lasts",
-  "From Burnout to Breakthrough: Recovery for High Achievers",
-  "Legacy Leadership: What Will Matter in 20 Years",
+  "Starting Over: Reinvention Without Losing Yourself",
+  "From Fixing Machines to Building a Meaningful Life",
+  "Faith, Purpose, and the Courage to Begin Again",
+  "Supporting People Through Mental Health and Life Transitions",
+  "Stay the Course: Resilience One Brick at a Time",
 ] as const;
 
 export const workshopFormats = [
@@ -202,27 +270,27 @@ export const workshopFormats = [
 export const testimonials = [
   {
     quote:
-      "James doesn't give you answers — he helps you find the ones that were already inside you. After six months, I made the career move I'd been avoiding for three years.",
+      "Rodney doesn't hand you answers — he helps you find the ones already inside you. After six months, I finally made the move I'd been avoiding for years.",
     author: "Michael R.",
-    role: "VP of Operations, Tech",
+    role: "Operations Leader",
   },
   {
     quote:
-      "I've worked with coaches before. James is different. He speaks from lived experience, not theory. That changes everything.",
+      "I've worked with coaches before. Rodney is different. He speaks from lived experience, not theory. That changes everything.",
     author: "Sarah K.",
-    role: "Founder & CEO",
+    role: "Small Business Owner",
   },
   {
     quote:
-      "The DEPTH program gave me back my confidence and my marriage. I didn't know how lost I'd become until I found my way back.",
+      "The DEPTH program gave me back my confidence and direction. I didn't realize how lost I'd become until I found my way back.",
     author: "David L.",
-    role: "Managing Director, Finance",
+    role: "Community Leader",
   },
   {
     quote:
-      "Our executive team still references James's workshop six months later. Practical, profound, and immediately applicable.",
+      "Our team still references Rodney's workshop months later. Practical, honest, and immediately useful.",
     author: "Jennifer M.",
-    role: "Chief People Officer",
+    role: "Nonprofit Director",
   },
 ] as const;
 
@@ -290,27 +358,27 @@ export const faqs = [
   {
     question: "What is Whitebeard Wisdom?",
     answer:
-      "Whitebeard Wisdom is an executive and life coaching practice founded by James Whitfield, offering 1:1 coaching, signature programs (CLARITY, DEPTH, LEGACY), workshops, and weekly wisdom for accomplished professionals seeking clarity, purpose, and lasting change.",
+      "Whitebeard Wisdom is the life coaching practice of Rodney Penn — owner, operator, and coach. Rodney offers 1:1 coaching, signature programs (CLARITY, DEPTH, LEGACY), workshops, and weekly wisdom for people navigating reinvention, purpose, and life's harder chapters.",
   },
   {
     question: "Who is Whitebeard Wisdom coaching for?",
     answer:
-      "Whitebeard Wisdom serves executives, entrepreneurs, and high-achieving professionals who are successful on paper but feel stuck, unfulfilled, or at a crossroads — ready for deeper clarity and intentional living.",
+      "Whitebeard Wisdom serves professionals, veterans, caregivers, and everyday leaders who feel stuck, unfulfilled, or ready for a second chapter — especially those who want coaching grounded in real life, faith, and hard-won perspective.",
   },
   {
     question: "What are the CLARITY, DEPTH, and LEGACY programs?",
     answer:
-      "CLARITY is a 6-week focused sprint ($2,400) for decision clarity. DEPTH is a 6-month signature container ($9,600) for identity-level growth. LEGACY is a 12-month partnership ($18,000) for leaders building long-term impact.",
+      "CLARITY is a 6-week focused sprint ($2,400) for decision clarity. DEPTH is a 6-month signature container ($9,600) for identity-level growth. LEGACY is a 12-month partnership ($18,000) for people building a life that will matter long-term.",
   },
   {
-    question: "How is James Whitfield different from other coaches?",
+    question: "What is Rodney Penn's background?",
     answer:
-      "James brings 25+ years of corporate leadership experience and ICF PCC certification. He coaches from lived wisdom — not theory — and specializes in executives navigating transition, burnout, and purpose questions.",
+      "Rodney is a Marine Corps veteran, Fort Hays State University alumnus (Class of 2021), and former case manager at Central Kansas Mental Health Center. Before human services, he spent decades in skilled trades and later worked with homeless men before discovering his calling in mental health support and coaching.",
   },
   {
     question: "Does Whitebeard Wisdom offer workshops and speaking?",
     answer:
-      "Yes. James delivers keynotes, half-day workshops, and full-day executive retreats on leadership wisdom, midlife reinvention, decision-making, burnout recovery, and legacy leadership — virtual or in-person.",
+      "Yes. Rodney delivers keynotes, workshops, and retreats on reinvention, faith and purpose, resilience, mental health awareness, and building a meaningful second chapter — virtual or in-person.",
   },
   {
     question: "What happens on the free Wisdom Call?",
@@ -320,7 +388,7 @@ export const faqs = [
   {
     question: "Is coaching confidential?",
     answer:
-      "Absolutely. All coaching conversations are strictly confidential. James adheres to ICF ethics and creates a safe space for honest exploration.",
+      "Absolutely. All coaching conversations are strictly confidential. Rodney creates a safe, respectful space for honest exploration.",
   },
   {
     question: "How do I get started with Whitebeard Wisdom?",
@@ -341,13 +409,13 @@ export const navLinks = [
 
 export const footerLinks = {
   services: [
-    { href: "/coaching", label: "Executive Coaching" },
+    { href: "/coaching", label: "Life Coaching" },
     { href: "/programs", label: "Signature Programs" },
     { href: "/workshops", label: "Workshops & Speaking" },
     { href: "/wisdom", label: "Wisdom Blog" },
   ],
   company: [
-    { href: "/about", label: "About James" },
+    { href: "/about", label: "About Rodney" },
     { href: "/testimonials", label: "Testimonials" },
     { href: "/contact", label: "Contact" },
   ],
@@ -362,7 +430,7 @@ export const contactPaths = [
   {
     id: "coaching",
     title: "I want 1:1 coaching",
-    description: "Executive and life coaching for clarity, decisions, transitions, and purposeful leadership.",
+    description: "Life coaching for clarity, decisions, transitions, and purposeful next chapters.",
     href: "/contact#coaching",
   },
   {
@@ -374,7 +442,7 @@ export const contactPaths = [
   {
     id: "workshop",
     title: "I want a workshop or keynote",
-    description: "Book James for your team, conference, or executive retreat.",
+    description: "Book Rodney for your team, church, conference, or community event.",
     href: "/contact#workshop",
   },
   {
@@ -392,8 +460,8 @@ export const contactPaths = [
 ] as const;
 
 export const stats = [
-  { value: "25+", label: "Years leadership experience" },
-  { value: "500+", label: "Clients coached" },
-  { value: "PCC", label: "ICF certified coach" },
-  { value: "4.9★", label: "Average client rating" },
+  { value: "FHSU '21", label: "Fort Hays State alumnus" },
+  { value: "USMC", label: "Marine Corps veteran" },
+  { value: "Decades", label: "Skilled trades & problem-solving" },
+  { value: "1:1", label: "Coaching with lived wisdom" },
 ] as const;

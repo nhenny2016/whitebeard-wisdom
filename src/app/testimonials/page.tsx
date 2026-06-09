@@ -8,7 +8,7 @@ import { breadcrumbSchema, jsonLd } from "@/lib/schema";
 export const metadata: Metadata = createMetadata({
   title: "Client Testimonials | Whitebeard Wisdom — Executive Coaching Reviews",
   description:
-    "Read what clients say about executive coaching with James Whitfield and Whitebeard Wisdom — clarity, confidence, and transformation for leaders.",
+    "Read what clients say about life coaching with Rodney Penn and Whitebeard Wisdom — clarity, confidence, and transformation.",
   path: "/testimonials",
 });
 
@@ -24,7 +24,7 @@ export default function TestimonialsPage() {
       <PageHero
         badge="Testimonials"
         title="Leaders who chose wisdom over drift."
-        description="Real stories from executives, founders, and professionals who worked with James to find clarity, make hard decisions, and build lives aligned with what matters."
+        description="Real stories from professionals, community leaders, and everyday people who worked with Rodney to find clarity, make hard decisions, and build lives aligned with what matters."
       />
       <TestimonialsSection />
       <CtaSection />

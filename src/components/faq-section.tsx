@@ -7,7 +7,7 @@ type FaqSectionProps = {
 
 export function FaqSection({
   title = "Questions about Whitebeard Wisdom",
-  intro = "Answers about executive coaching, signature programs, workshops, and how to get started.",
+  intro = "Answers about life coaching with Rodney Penn, signature programs, workshops, and how to get started.",
 }: FaqSectionProps) {
   return (
     <section className="border-t border-brand-navy/8">

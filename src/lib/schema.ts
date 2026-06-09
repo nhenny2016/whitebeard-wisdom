@@ -15,6 +15,11 @@ export function organizationSchema() {
       "@type": "Person",
       name: siteConfig.coach.name,
       jobTitle: siteConfig.coach.title,
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: "Fort Hays State University",
+      },
+      url: siteConfig.coach.bioSource,
     },
     sameAs: [siteConfig.social.instagram, siteConfig.social.linkedin, siteConfig.social.youtube],
   };
