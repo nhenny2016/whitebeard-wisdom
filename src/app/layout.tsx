@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
+import { assets } from "@/lib/assets";
 import { homeMetadata } from "@/lib/metadata";
 import { faqSchema, jsonLd, organizationSchema, websiteSchema } from "@/lib/schema";
 import "./globals.css";
@@ -18,7 +19,17 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata: Metadata = homeMetadata;
+export const metadata: Metadata = {
+  ...homeMetadata,
+  icons: {
+    icon: [
+      { url: assets.favicon, sizes: "32x32", type: "image/png" },
+      { url: assets.icon192, sizes: "192x192", type: "image/png" },
+    ],
+    apple: [{ url: assets.appleTouchIcon, sizes: "180x180", type: "image/png" }],
+  },
+  manifest: "/site.webmanifest",
+};
 
 export default function RootLayout({
   children,

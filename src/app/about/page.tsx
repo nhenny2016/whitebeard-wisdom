@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import { BrandLogo } from "@/components/brand-logo";
 import { CtaSection } from "@/components/cta-section";
 import { PageHero } from "@/components/page-hero";
 import { PageShell } from "@/components/page-shell";
@@ -80,14 +80,8 @@ export default function AboutPage() {
       </section>
 
       <section className="section-shell">
-        <div className="relative mx-auto max-w-md overflow-hidden rounded-3xl border border-brand-gold/20">
-          <Image
-            src={siteConfig.images.logo}
-            alt={siteConfig.name}
-            width={320}
-            height={380}
-            className="mx-auto h-auto w-full max-w-xs"
-          />
+        <div className="relative mx-auto max-w-sm overflow-hidden rounded-3xl border border-brand-gold/20 bg-white p-6">
+          <BrandLogo variant="full" href="/" />
         </div>
       </section>
 
