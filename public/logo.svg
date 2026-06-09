@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 380" fill="none" role="img" aria-label="Whitebeard Wisdom">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4a97a"/>
+      <stop offset="100%" stop-color="#b59a6d"/>
+    </linearGradient>
+  </defs>
+  <!-- Hex shield -->
+  <path d="M160 8 L300 88 L300 248 L160 328 L20 248 L20 88 Z" fill="#1b2b48"/>
+  <path d="M160 20 L284 92 L284 244 L160 316 L36 244 L36 92 Z" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <!-- Inner circle -->
+  <circle cx="160" cy="168" r="72" fill="#3d4556"/>
+  <!-- Head -->
+  <ellipse cx="160" cy="148" rx="38" ry="42" fill="#d4a574"/>
+  <!-- Beard -->
+  <path d="M122 158 Q160 220 198 158 Q190 200 160 210 Q130 200 122 158" fill="#f5f5f5"/>
+  <path d="M130 162 Q160 195 190 162" fill="#e8e8e8"/>
+  <!-- Glasses -->
+  <rect x="128" y="138" width="24" height="18" rx="4" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <rect x="168" y="138" width="24" height="18" rx="4" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="152" y1="147" x2="168" y2="147" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Smile -->
+  <path d="M145 168 Q160 178 175 168" fill="none" stroke="#8b6914" stroke-width="2" stroke-linecap="round"/>
+  <!-- Blazer -->
+  <path d="M110 195 L160 210 L210 195 L210 240 L110 240 Z" fill="#1b2b48"/>
+  <!-- Wordmark -->
+  <text x="160" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#1b2b48" letter-spacing="2">WHITEBEARD WISDOM</text>
+  <text x="160" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">whitebeardwisdom.com</text>
+</svg>

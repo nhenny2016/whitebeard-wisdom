@@ -1,0 +1,25 @@
+name: LuminaForge Standards Audit
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: standards-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run LuminaForge standards audit
+        uses: nhenny2016/luminaforge/.github/actions/standards-audit@standards-v2026.05.28
+        with:
+          skip-psi: "true"
+        env:
+          GOOGLE_PAGESPEED_API_KEY: ${{ secrets.GOOGLE_PAGESPEED_API_KEY }}

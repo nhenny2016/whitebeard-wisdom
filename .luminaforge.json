@@ -1,0 +1,13 @@
+{
+  "standardsVersion": "2026.05.28",
+  "siteUrl": "https://whitebeardwisdom.com",
+  "standardsRepo": "nhenny2016/luminaforge",
+  "standardsRef": "standards-v2026.05.28",
+  "features": {
+    "aiEmployee": false,
+    "llms": true
+  },
+  "audit": {
+    "criticalPaths": ["/", "/coaching", "/programs", "/wisdom", "/workshops", "/about", "/contact"]
+  }
+}

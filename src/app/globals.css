@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1b2b48;
+  --brand-navy: #1b2b48;
+  --brand-navy-deep: #121d32;
+  --brand-navy-soft: #2a3f66;
+  --brand-gold: #b59a6d;
+  --brand-gold-deep: #96794f;
+  --brand-gold-soft: #e8dcc8;
+  --brand-gold-muted: #d4c4a8;
+  --brand-charcoal: #3d4556;
+  --brand-muted: #6b7280;
+  --brand-surface: #f8f9fb;
+  --brand-cream: #faf8f5;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-navy-deep: var(--brand-navy-deep);
+  --color-brand-navy-soft: var(--brand-navy-soft);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-gold-deep: var(--brand-gold-deep);
+  --color-brand-gold-soft: var(--brand-gold-soft);
+  --color-brand-gold-muted: var(--brand-gold-muted);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-cream: var(--brand-cream);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-playfair);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(181, 154, 109, 0.25);
+}
+
+.headline-hero {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.headline-banner {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.12;
+  color: var(--brand-navy);
+}
+
+.display-title {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 600;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-sm bg-brand-gold px-7 py-3.5 text-sm font-semibold tracking-wide text-brand-navy-deep transition hover:bg-brand-gold-deep hover:text-white;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-sm border border-brand-navy/20 bg-white px-7 py-3.5 text-sm font-semibold tracking-wide text-brand-navy transition hover:bg-brand-surface;
+}
+
+.btn-outline-light {
+  @apply inline-flex items-center justify-center gap-2 rounded-sm border border-white/35 bg-transparent px-7 py-3.5 text-sm font-semibold tracking-wide text-white transition hover:bg-white/10;
+}
+
+.section-badge {
+  @apply inline-block rounded-full bg-brand-gold-soft px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand-gold-deep;
+}
+
+.section-badge-dark {
+  @apply inline-block rounded-full bg-brand-navy px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand-gold;
+}
+
+.section-badge-navy {
+  @apply inline-block rounded-full bg-brand-navy-soft/15 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-brand-navy;
+}
+
+.card {
+  @apply rounded-2xl border border-brand-navy/8 bg-white p-6 shadow-[0_8px_30px_rgba(27,43,72,0.06)];
+}
+
+.text-body {
+  @apply text-brand-charcoal/90;
+}
+
+.text-muted {
+  @apply text-brand-muted;
+}
+
+.section-shell {
+  @apply mx-auto max-w-6xl px-6 py-16 md:py-20;
+}
+
+.cta-band {
+  background:
+    linear-gradient(135deg, rgba(27, 43, 72, 0.98), rgba(18, 29, 50, 0.96)),
+    radial-gradient(circle at 85% 20%, rgba(181, 154, 109, 0.25), transparent 35%),
+    radial-gradient(circle at 15% 80%, rgba(42, 63, 102, 0.2), transparent 40%);
+}
+
+.hex-frame {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+.gold-accent::first-letter {
+  color: var(--brand-gold);
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "luminaforge-standards": {
+      "command": "npx",
+      "args": ["tsx", "mcp/standards-server.ts"],
+      "cwd": "C:\\Users\\nickh\\.cursor\\projects\\empty-window\\luminaforge"
+    }
+  }
+}

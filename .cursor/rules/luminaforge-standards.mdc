@@ -1,0 +1,25 @@
+---
+description: LuminaForge Elite Standards — enforced in CI via .luminaforge.json
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# LuminaForge Elite Standards (2026.05.28)
+
+This client site is governed by LuminaForge standards. CI fails PRs that violate hard rules.
+
+## Before shipping
+
+1. Run local audit: `npm run standards:audit -- --root . --skip-psi` (from luminaforge clone).
+2. Confirm `.luminaforge.json` standardsVersion matches latest tag.
+3. Verify `/llms.txt`, `robots.ts` AI bots, and `lib/metadata.ts` on new routes.
+
+## Non-negotiables
+
+- No `framer-motion`, `lucide-react`, or `tailwind.config.ts`.
+- No direct `process.env` outside `lib/env.ts`.
+- Server Components by default; `"use client"` at leaves only.
+- AI Employee system prompt is server-only — never imported by client components.
+
+Authority: https://luminaforge.ai/standards/manifest
