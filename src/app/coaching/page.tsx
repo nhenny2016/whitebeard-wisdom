@@ -11,7 +11,7 @@ import { coachingFormats, coachingSupportAreas, signaturePrograms, siteConfig } 
 export const metadata: Metadata = createMetadata({
   title: "Life Coaching | Whitebeard Wisdom — 1:1 Coaching with Rodney Penn",
   description:
-    "Life coaching with Rodney Penn for clarity, reinvention, purpose, and next-chapter direction. 1:1 sessions, intensives, and group circles grounded in lived experience.",
+    "Neuroscience-informed life coaching with Rodney Penn for clarity, reinvention, purpose, and next-chapter direction. 1:1 sessions, intensives, and group circles that catalyze lasting change.",
   path: "/coaching",
 });
 
@@ -22,7 +22,7 @@ export default function CoachingPage() {
   ]);
   const service = serviceSchema(
     "Executive Life Coaching",
-    "1:1 coaching for executives and high achievers seeking clarity, decision-making support, and purposeful leadership.",
+    "Neuroscience-informed 1:1 coaching for executives and high achievers seeking clarity, decision-making support, and purposeful leadership.",
   );
 
   return (
@@ -30,8 +30,8 @@ export default function CoachingPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd([breadcrumbs, service]) }} />
       <PageHero
         badge="Life Coaching"
-        title="Coaching for people ready to start over with purpose."
-        description="Whether you are navigating a career change, rebuilding after burnout, or searching for meaning in a second chapter — Rodney meets you with directness, faith, and decades of lived experience."
+        title="Coaching that catalyzes change — not just conversation."
+        description="Whether you are navigating a career change, rebuilding after burnout, or searching for meaning in a second chapter — Rodney meets you with directness, faith, neuroscience-informed practice, and decades of lived experience."
         image={siteConfig.images.coachingHero}
         imageAlt="Executive coaching session"
         actions={

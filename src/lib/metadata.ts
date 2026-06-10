@@ -27,7 +27,7 @@ export function createMetadata({ title, description, path = "" }: PageMeta): Met
           url: siteConfig.images.ogImage,
           width: 1200,
           height: 630,
-          alt: `${siteConfig.name} — executive and life coaching`,
+          alt: `${siteConfig.name} — ${siteConfig.positioning}`,
         },
       ],
     },

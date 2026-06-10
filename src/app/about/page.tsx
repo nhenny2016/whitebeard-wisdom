@@ -11,7 +11,7 @@ import { aboutValues, bioSpotlight, bioTimeline, siteConfig } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "About Rodney Penn | Whitebeard Wisdom — Owner, Operator & Life Coach",
   description:
-    "Meet Rodney Penn — Marine Corps veteran, FHSU alumnus, case manager, and founder of Whitebeard Wisdom. A story of reinvention, faith, service, and earned wisdom.",
+    "Meet Rodney Penn — neuroscience-informed transformation catalyst, Marine Corps veteran, FHSU alumnus, and founder of Whitebeard Wisdom. A story of reinvention, faith, service, and change that sticks.",
   path: "/about",
 });
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
 
       <section className="section-shell grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <h2 className="headline-banner text-3xl">A retread who rebuilt his life</h2>
+          <h2 className="headline-banner text-3xl">A retread who became a transformation catalyst</h2>
           <p className="mt-6 text-body">
             Rodney Penn is what the Marine Corps calls a retread — someone who started over late in
             his career. Most of his life was spent fixing things: welders, wind turbines, and

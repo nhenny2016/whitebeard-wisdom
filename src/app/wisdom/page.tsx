@@ -10,7 +10,7 @@ import { wisdomArticles } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Wisdom Blog | Whitebeard Wisdom — Insights for Leaders",
   description:
-    "Weekly wisdom for people navigating reinvention, purpose, and life's harder chapters — from coach Rodney Penn.",
+    "Weekly wisdom on reinvention, neuroscience-informed change, purpose, and life's harder chapters — from transformation catalyst Rodney Penn.",
   path: "/wisdom",
 });
 

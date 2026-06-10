@@ -11,7 +11,7 @@ import { siteConfig, workshopFormats, workshopTopics } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Workshops & Speaking | Whitebeard Wisdom — Rodney Penn",
   description:
-    "Book Rodney Penn for keynotes, workshops, and retreats on reinvention, faith and purpose, resilience, and building a meaningful second chapter.",
+    "Book Rodney Penn for keynotes, workshops, and retreats on reinvention, neuroscience-informed change, faith and purpose, resilience, and building a meaningful second chapter.",
   path: "/workshops",
 });
 
@@ -27,7 +27,7 @@ export default function WorkshopsPage() {
       <PageHero
         badge="Workshops & Speaking"
         title="Bring wisdom to your team, conference, or retreat."
-        description="Rodney delivers keynotes and workshops that combine skilled-trades grit, human services experience, and faith-informed perspective — practical, honest, and immediately useful."
+        description="Rodney delivers keynotes and workshops that combine skilled-trades grit, neuroscience-informed insight, human services experience, and faith-informed perspective — practical, honest, and immediately useful."
         image={siteConfig.images.workshopHero}
         imageAlt={`${siteConfig.coach.name} speaking`}
         actions={

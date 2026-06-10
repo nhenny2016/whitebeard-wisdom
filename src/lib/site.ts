@@ -4,11 +4,12 @@ export const siteConfig = {
   name: "Whitebeard Wisdom",
   legalName: "Whitebeard Wisdom LLC",
   shortName: "Whitebeard Wisdom",
-  slogan: "Decades of life. Distilled into wisdom you can use today.",
+  positioning: "Neuroscience-informed transformation catalyst",
+  slogan: "Where earned wisdom meets how change actually works.",
   tagline:
-    "Life coaching for people ready to start over, find clarity, and build a second chapter with purpose — guided by someone who has rebuilt his own life from the ground up.",
+    "A neuroscience-informed transformation catalyst for professionals ready to start over, find clarity, and build a second chapter with purpose — guided by someone who has rebuilt his own life from the ground up.",
   description:
-    "Whitebeard Wisdom is the life coaching practice of Rodney Penn — owner, operator, and coach. Rodney helps professionals and everyday leaders navigate reinvention, purpose, faith, and the hard work of becoming who they were meant to be.",
+    "Whitebeard Wisdom is the life coaching practice of Rodney Penn — a neuroscience-informed transformation catalyst who helps professionals and everyday leaders navigate reinvention, purpose, faith, and the hard work of becoming who they were meant to be.",
   url: "https://whitebeardwisdom.com",
   locale: "en_US",
   email: "hello@whitebeardwisdom.com",
@@ -17,12 +18,12 @@ export const siteConfig = {
   phoneHref: "tel:+14175550142",
   coach: {
     name: "Rodney Penn",
-    title: "Owner, Operator & Life Coach",
+    title: "Neuroscience-Informed Transformation Catalyst & Life Coach",
     alumniClass: "2021",
     bioSource: "https://fhsualumni.com/rodney-penn-21/",
-    bio: "Rodney Penn is what the Marine Corps calls a retread — someone who started over late in life. After decades fixing welders, wind turbines, and aviation radar, a renewed faith led him to serve homeless men and discover a passion for people facing mental illness. He earned his degree from Fort Hays State University and built a career in human services before launching Whitebeard Wisdom to coach others through their own second chapters.",
+    bio: "Rodney Penn is what the Marine Corps calls a retread — someone who started over late in life. After decades fixing welders, wind turbines, and aviation radar, a renewed faith led him to serve homeless men and discover a passion for people facing mental illness. He earned his degree from Fort Hays State University and built a career in human services — walking alongside people through stress, habit loops, and identity shifts — before launching Whitebeard Wisdom as a neuroscience-informed transformation catalyst for others navigating their own second chapters.",
     shortBio:
-      "Marine Corps veteran, FHSU alumnus, and case manager turned life coach — Rodney helps people rebuild with clarity, faith, and earned wisdom.",
+      "Marine Corps veteran, FHSU alumnus, and case manager turned transformation catalyst — Rodney helps people rebuild with clarity, faith, and change that sticks.",
     credentials: [
       "Fort Hays State University alumnus (Class of 2021)",
       "Marine Corps veteran",
@@ -33,7 +34,7 @@ export const siteConfig = {
       "Stay the course. Finish strong. A brick wall is built one brick at a time. Just keep working at it.",
   },
   mission:
-    "To help people at crossroads translate hard-won life experience into intentional next chapters — with clarity, courage, faith, and wisdom that lasts.",
+    "To catalyze lasting transformation at life's crossroads — combining earned wisdom, neuroscience-informed practice, and steady accountability so clarity becomes real change.",
   social: {
     instagram: "https://www.instagram.com/whitebeardwisdom",
     linkedin: "https://www.linkedin.com/company/whitebeard-wisdom",
@@ -67,24 +68,24 @@ export const approachPillars = [
       "We start with the questions beneath the goals — who you are becoming, not just what you are trying to fix next.",
   },
   {
-    title: "Lived Experience Over Theory",
+    title: "Neuroscience-Informed Change",
     description:
-      "Rodney coaches from a life rebuilt — skilled trades, service, faith, education, and human services — not from a script.",
+      "Rodney draws on how the brain handles stress, habit, and identity — informed by mental health practice and behavioral science, grounded in a life rebuilt.",
   },
   {
-    title: "Steady Accountability",
+    title: "Catalyst, Not Cheerleader",
     description:
-      "Direct, respectful support for people ready to stay the course, finish strong, and keep laying one brick at a time.",
+      "Direct, respectful support that sparks real movement — stay the course, finish strong, and keep laying one brick at a time until change sticks.",
   },
 ] as const;
 
 export const outcomes = [
   "Crystal clarity on priorities and next steps",
   "Confidence to make hard decisions without second-guessing",
+  "Breaking patterns that kept you stuck — not just understanding them",
   "Stronger boundaries between work and life",
   "A personal leadership philosophy you actually live by",
-  "Renewed energy and sense of purpose",
-  "Relationships aligned with your values",
+  "Renewed energy, purpose, and relationships aligned with your values",
 ] as const;
 
 export const signaturePrograms = [
@@ -94,7 +95,7 @@ export const signaturePrograms = [
     duration: "6 Weeks",
     price: "$2,400",
     summary:
-      "A focused sprint for professionals at a crossroads — gain direction, resolve a key decision, and build momentum fast.",
+      "A focused sprint for professionals at a crossroads — gain direction, resolve a key decision, and catalyze momentum fast.",
     href: "/programs#clarity",
     features: ["6 bi-weekly 1:1 sessions", "Decision clarity workbook", "Between-session email support"],
   },
@@ -104,7 +105,7 @@ export const signaturePrograms = [
     duration: "6 Months",
     price: "$9,600",
     summary:
-      "The signature container for identity-level growth — unpack patterns, rebuild self-trust, and lead from your truest self.",
+      "The signature container for identity-level transformation — unpack patterns, rebuild self-trust, and lead from your truest self.",
     href: "/programs#depth",
     features: ["12 bi-weekly 1:1 sessions", "Values & vision mapping", "Quarterly progress reviews", "Priority email access"],
   },
@@ -150,9 +151,9 @@ export const coachingFormats = [
 export const coachingSupportAreas = [
   "Starting over after career or life disruption",
   "Finding purpose in a second chapter",
+  "Breaking stress-driven patterns and decision fatigue",
   "Faith-informed decision making and direction",
   "Navigating burnout, transition, and identity shifts",
-  "Building confidence after years of fixing everyone else's problems",
   "Creating a life aligned with values, family, and legacy",
 ] as const;
 
@@ -191,7 +192,7 @@ export const bioTimeline = [
     era: "Today",
     title: "Whitebeard Wisdom",
     description:
-      "Rodney now coaches through Whitebeard Wisdom — helping others navigate crossroads with the same grit, faith, and hard-earned perspective that shaped his own second chapter.",
+      "Rodney now coaches through Whitebeard Wisdom as a neuroscience-informed transformation catalyst — helping others navigate crossroads with grit, faith, and change that lasts.",
   },
 ] as const;
 
@@ -254,6 +255,7 @@ export const wisdomArticles = [
 
 export const workshopTopics = [
   "Starting Over: Reinvention Without Losing Yourself",
+  "Why Change Sticks (and Why It Doesn't): A Neuroscience-Informed View",
   "From Fixing Machines to Building a Meaningful Life",
   "Faith, Purpose, and the Courage to Begin Again",
   "Supporting People Through Mental Health and Life Transitions",
@@ -322,6 +324,11 @@ export const aboutValues = [
       "Real insight comes from experience, reflection, and time. We honor the long view — not quick fixes.",
   },
   {
+    title: "Science-Informed Practice",
+    description:
+      "Change works better when you understand how stress, habit, and identity actually operate — not just what you wish they would do.",
+  },
+  {
     title: "Clarity",
     description:
       "Confusion is expensive. We help you see clearly so every decision aligns with what matters most.",
@@ -358,12 +365,17 @@ export const faqs = [
   {
     question: "What is Whitebeard Wisdom?",
     answer:
-      "Whitebeard Wisdom is the life coaching practice of Rodney Penn — owner, operator, and coach. Rodney offers 1:1 coaching, signature programs (CLARITY, DEPTH, LEGACY), workshops, and weekly wisdom for people navigating reinvention, purpose, and life's harder chapters.",
+      "Whitebeard Wisdom is the life coaching practice of Rodney Penn — a neuroscience-informed transformation catalyst. Rodney offers 1:1 coaching, signature programs (CLARITY, DEPTH, LEGACY), workshops, and weekly wisdom for people navigating reinvention, purpose, and life's harder chapters.",
+  },
+  {
+    question: "What does neuroscience-informed mean?",
+    answer:
+      "It means Rodney's coaching draws on how the brain actually handles stress, habit formation, and identity change — informed by his mental health case management background and behavioral science, not coaching trends or pop psychology. You get practical tools for change that sticks, not jargon.",
   },
   {
     question: "Who is Whitebeard Wisdom coaching for?",
     answer:
-      "Whitebeard Wisdom serves professionals, veterans, caregivers, and everyday leaders who feel stuck, unfulfilled, or ready for a second chapter — especially those who want coaching grounded in real life, faith, and hard-won perspective.",
+      "Whitebeard Wisdom serves professionals, veterans, caregivers, and everyday leaders who feel stuck, unfulfilled, or ready for a second chapter — especially those who want a transformation catalyst grounded in real life, faith, and neuroscience-informed practice.",
   },
   {
     question: "What are the CLARITY, DEPTH, and LEGACY programs?",
@@ -430,7 +442,7 @@ export const contactPaths = [
   {
     id: "coaching",
     title: "I want 1:1 coaching",
-    description: "Life coaching for clarity, decisions, transitions, and purposeful next chapters.",
+    description: "Neuroscience-informed coaching for clarity, decisions, transitions, and purposeful next chapters.",
     href: "/contact#coaching",
   },
   {
@@ -463,5 +475,5 @@ export const stats = [
   { value: "FHSU '21", label: "Fort Hays State alumnus" },
   { value: "USMC", label: "Marine Corps veteran" },
   { value: "Decades", label: "Skilled trades & problem-solving" },
-  { value: "1:1", label: "Coaching with lived wisdom" },
+  { value: "1:1", label: "Transformation catalyst coaching" },
 ] as const;

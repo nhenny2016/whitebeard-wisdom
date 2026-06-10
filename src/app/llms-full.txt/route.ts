@@ -26,6 +26,7 @@ const fullBrief = `# Whitebeard Wisdom — Full LLM Brief
 
 - Name: ${siteConfig.name}
 - Legal: ${siteConfig.legalName}
+- Positioning: ${siteConfig.positioning}
 - Slogan: ${siteConfig.slogan}
 - Tagline: ${siteConfig.tagline}
 - Mission: ${siteConfig.mission}

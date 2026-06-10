@@ -11,7 +11,7 @@ import { contactPaths, siteConfig } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Contact Whitebeard Wisdom — Book a Wisdom Call",
   description:
-    "Contact Whitebeard Wisdom for life coaching with Rodney Penn, signature programs, workshops, or speaking. Email hello@whitebeardwisdom.com or book a free Wisdom Call.",
+    "Contact Whitebeard Wisdom for neuroscience-informed transformation coaching with Rodney Penn, signature programs, workshops, or speaking. Email hello@whitebeardwisdom.com or book a free Wisdom Call.",
   path: "/contact",
 });
 

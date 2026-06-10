@@ -7,8 +7,9 @@ export function ValuesSection() {
       <div className="section-shell">
         <h2 className="headline-banner text-3xl md:text-4xl">Not just insight. Integration.</h2>
         <p className="mt-4 max-w-3xl text-body">
-          A lot of leaders know what needs to change. Fewer have the support to actually live that
-          change. That is where this work is different.
+          A lot of leaders know what needs to change. Fewer have a transformation catalyst who
+          understands how the brain handles stress, habit, and identity — and how to make change
+          last. That is where this work is different.
         </p>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {aboutValues.map((value) => (
@@ -76,7 +77,7 @@ export function GettingStartedSection() {
         <p className="mt-8 max-w-3xl text-body">
           The next step does not have to feel overwhelming. It just has to be honest. Whether you
           come for coaching, a signature program, or a workshop — the heart of the work stays the
-          same: clarity, courage, and wisdom that lasts.
+          same: clarity, courage, and neuroscience-informed transformation that lasts.
         </p>
       </div>
     </section>
@@ -88,11 +89,12 @@ export function CtaSection() {
     <section className="cta-band text-white">
       <div className="mx-auto max-w-4xl px-6 py-16 text-center md:py-20">
         <h2 className="headline-banner text-3xl text-white md:text-4xl">
-          Your next chapter deserves a wise guide.
+          Your next chapter deserves a transformation catalyst.
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-base leading-8 text-white/90">
           Whether you are at a crossroads, rebuilding after burnout, or designing a legacy that
-          matters — Whitebeard Wisdom is here to help you move forward with clarity and confidence.
+          matters — Whitebeard Wisdom combines earned wisdom and neuroscience-informed practice to
+          help you move forward with clarity and confidence.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <Link href="/contact#schedule" className="btn-primary">

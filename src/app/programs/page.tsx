@@ -11,7 +11,7 @@ import { signaturePrograms, siteConfig } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Signature Programs | Whitebeard Wisdom — CLARITY, DEPTH & LEGACY",
   description:
-    "Structured coaching programs for professionals at every stage: CLARITY (6 weeks, $2,400), DEPTH (6 months, $9,600), and LEGACY (12 months, $18,000).",
+    "Structured transformation programs for professionals at every stage: CLARITY (6 weeks, $2,400), DEPTH (6 months, $9,600), and LEGACY (12 months, $18,000). Neuroscience-informed coaching with Rodney Penn.",
   path: "/programs",
 });
 
@@ -30,7 +30,7 @@ export default function ProgramsPage() {
       <PageHero
         badge="Signature Programs"
         title="Choose your depth of transformation."
-        description="Three pathways designed for where you are — from a focused clarity sprint to a year-long legacy partnership. Every program includes structured sessions, accountability, and wisdom you can apply immediately."
+        description="Three pathways designed for where you are — from a focused clarity sprint to a year-long legacy partnership. Every program includes structured sessions, neuroscience-informed accountability, and change you can apply immediately."
         actions={
           <Link href="/contact#program" className="btn-primary">
             Discuss Your Fit

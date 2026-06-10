@@ -20,7 +20,7 @@ export function HeroSection() {
 
       <div className="relative section-shell grid items-center gap-12 py-10 lg:grid-cols-[1.05fr_0.95fr] lg:py-16">
         <div>
-          <p className="section-badge">Executive & life coaching</p>
+          <p className="section-badge">{siteConfig.positioning}</p>
           <h1 className="headline-hero mt-6 text-4xl text-brand-navy md:text-6xl">
             {siteConfig.slogan}
           </h1>
@@ -121,8 +121,8 @@ export function PainPointsSection() {
         <p className="mt-5 max-w-3xl text-lg leading-8 text-body">
           You can be accomplished, respected, and still feel like something is missing. You can lead
           teams, close deals, and raise families while quietly wondering if this is really the life
-          you meant to build. At Whitebeard Wisdom, we work with professionals who are ready for
-          wisdom — not more hustle.
+          you meant to build.           At Whitebeard Wisdom, we work with professionals who are ready for
+          transformation that sticks — not more hustle or empty motivation.
         </p>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {painPoints.map((item) => (
@@ -144,7 +144,9 @@ export function ApproachSection() {
     <section className="border-b border-brand-navy/8 bg-brand-surface">
       <div className="section-shell">
         <p className="section-badge-dark">Our approach</p>
-        <h2 className="headline-banner mt-4 text-3xl md:text-4xl">Wisdom, not widgets.</h2>
+        <h2 className="headline-banner mt-4 text-3xl md:text-4xl">
+          Science-informed. Life-proven. Not widgets.
+        </h2>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {approachPillars.map((pillar) => (
             <div key={pillar.title} className="card">
@@ -165,8 +167,8 @@ export function OutcomesSection() {
         <div>
           <h2 className="headline-banner text-3xl md:text-4xl">What changes when you do the work</h2>
           <p className="mt-4 text-body">
-            Clients come to Whitebeard Wisdom for clarity. They stay for transformation. Here is what
-            becomes possible.
+            Clients come to Whitebeard Wisdom for clarity. They stay because a transformation
+            catalyst helps change actually stick. Here is what becomes possible.
           </p>
         </div>
         <ul className="grid gap-3 sm:grid-cols-2">

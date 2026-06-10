@@ -8,7 +8,7 @@ import { breadcrumbSchema, jsonLd } from "@/lib/schema";
 export const metadata: Metadata = createMetadata({
   title: "Client Testimonials | Whitebeard Wisdom — Executive Coaching Reviews",
   description:
-    "Read what clients say about life coaching with Rodney Penn and Whitebeard Wisdom — clarity, confidence, and transformation.",
+    "Read what clients say about neuroscience-informed transformation coaching with Rodney Penn and Whitebeard Wisdom — clarity, confidence, and lasting change.",
   path: "/testimonials",
 });
 
