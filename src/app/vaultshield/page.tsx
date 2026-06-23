@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowRightCircle, Zap, LockKeyhole, Fingerprint, Menu, X } from "lucide-react";
+import { CircleArrowRight as ArrowRightCircle, Zap, LockKeyhole, FingerprintPattern as Fingerprint, Menu, X } from "lucide-react";
 
 const navLinks = ["Vault", "Plans", "Install", "News", "Help"];
 
